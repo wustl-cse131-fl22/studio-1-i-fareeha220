@@ -10,7 +10,7 @@ public class HiOne {
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
-		System.out.print("Enter value for arg 0: ");
+		System.out.print("Enter value for name: ");
 		String name = in.nextLine();
 		//
 		// Below this line, enter code so that this program's output says
@@ -18,6 +18,8 @@ public class HiOne {
 		// if the value of name is "Pat"
 		//
 
+		System.out.println("Hi, " + name + "!");
+		System.out.print("How are you?");
 	}
 
 }
